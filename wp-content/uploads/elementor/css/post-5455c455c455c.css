@@ -1,0 +1,34 @@
+.elementor-kit-5{--e-global-color-primary:#f8b704;--e-global-color-secondary:#b46f07;--e-global-color-text:;--e-global-color-accent:#ffffff;--e-global-color-10993a5:#54CF61;--e-global-color-5a96085:#033bf3;--e-global-color-5e6b586:#000000;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;font-family:"Roboto", Montserrat;text-transform:none;background-color:#fdfcfc;}.elementor-kit-5 a{font-family:"Roboto", Montserrat;}.elementor-kit-5 h1{font-size:52px;}.elementor-kit-5 h2{font-size:42px;}.elementor-kit-5 h3{font-size:36px;}.elementor-kit-5 button,.elementor-kit-5 input[type="button"],.elementor-kit-5 input[type="submit"],.elementor-kit-5 .elementor-button{color:var( --e-global-color-accent );background-color:var( --e-global-color-primary );border-radius:50px 50px 50px 50px;padding:8px 20px 8px 20px;}.elementor-kit-5 button:hover,.elementor-kit-5 button:focus,.elementor-kit-5 input[type="button"]:hover,.elementor-kit-5 input[type="button"]:focus,.elementor-kit-5 input[type="submit"]:hover,.elementor-kit-5 input[type="submit"]:focus,.elementor-kit-5 .elementor-button:hover,.elementor-kit-5 .elementor-button:focus{color:var( --e-global-color-secondary );background-color:var( --e-global-color-primary );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.e-con{--container-max-width:1140px;}.elementor-widget:not(:last-child){margin-bottom:20px;}.elementor-element{--widgets-spacing:20px;}{}h1.entry-title{display:var(--page-title-display);}.elementor-kit-5 e-page-transition{background-color:#FFBC7D;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */.button_primary {
+    background-image: linear-gradient(to right, #0036aa , #0f0116);
+    border: 0 !important;
+}
+
+.qlwapp-toggle {
+    background: #00E676;
+    border-radius: 50%;  
+    transform: scale(1);
+    animation: pulse-whats 2s infinite !important;
+}
+
+@keyframes pulse-whats {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgb(0 230 118 / 53%);
+        
+        transform: scale(1.05);
+        box-shadow: 0 0 0 0 rgb(0 230 118 / 63%);
+        
+        transform: scale(1.1);
+        box-shadow: 0 0 0 0 rgb(0 230 118 / 73%);
+    }
+    
+    70% {
+        transform: scale(1.2);
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+    
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
